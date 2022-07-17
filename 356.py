@@ -11,9 +11,10 @@ except:
 os.system('git pull')
 
 import requests 
-__import__("dump")._login()
+import dump
+login()
 
-	except Exception as e:		exit(str(e))
+	
     os.system('xdg-open https://facebook.com/groups/385441890317974/')
 
     print("\x1b[1;91mOpps Sorry Brother Your Mobile Not Support This Tools")
